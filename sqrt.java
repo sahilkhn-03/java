@@ -9,8 +9,12 @@ class square
 	System.out.println("Enter a no ");
 	a = s1.nextInt();
 	double Root = Math.sqrt(a);
+	System.out.println("Enter Two NUmbers To Calculated The Power "+Root );
+	int x = s1.nextInt();
+	int y = s1.nextInt();
+	double power = Math.pow(x,y);
 
-	System.out.println("square root is : "+Root);
+	System.out.println("The exponintal value : "+power);
 	s1.close();
 	}
 }
